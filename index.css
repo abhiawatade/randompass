@@ -85,3 +85,23 @@ h1 {
   font-size: 40px;
   line-height: 40px;
 }
+
+a {
+  position: fixed;
+  bottom: 10px;
+  text-decoration: none;
+  color: #10b981;
+  font-weight: 700;
+  font-size: 16px;
+  font-family: "Roboto Mono", monospace;
+  padding: 9px 15px 9px 17px;
+  border-radius: 6px;
+  box-sizing: border-box;
+  width: 211px;
+  height: 45px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: whitesmoke;
+}
