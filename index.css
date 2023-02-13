@@ -29,14 +29,18 @@ p {
 }
 
 .input {
-  text-align: center;
-  margin: 51px 20px;
+  margin: 51px 2px;
+  padding: px;
 }
 
 input {
-  padding: 3px 3px;
+  padding: 8px 7px;
   font-size: 16px;
   width: 40px;
+  border-radius: 3px;
+  border: none;
+  background: #2f3e53;
+  color: whitesmoke;
 }
 
 #pass {
