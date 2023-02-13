@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Random Pass Generator</title>
-    <link rel="stylesheet" href="index.css">
-
-</head>
-<body>
-   <h1>Generate a random password</h1> 
-   <p>Never use insecure password again</p>
-   <input type="number" id="pass-length"> Enter password length
-   <br>
-   <button id="pass">Generate Password</button>
-   <p id="pass-one"></p>
-   <p id="pass-two"></p>
-   
-</body>
-<script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Generate a <span class="accent-text"> random password</span></h1>
+      <p>Never use insecure password again</p>
+      <div class="input">
+        <input type="number" id="pass-length" value="15" />
+        Password Length
+      </div>
+      <button id="pass">Generate Password</button>
+      <div class="password">
+        <p id="pass-one"></p>
+        <p id="pass-two"></p>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="index.js"></script>
 </html>
